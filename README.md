@@ -1,9 +1,9 @@
 # PB: demo app for angular 1.4 style;
 
 Implemented concepts:
-* Nested controllers and scopes
+* Nested components
 * Single data access service
-* UI-router with nested routes
+* ng-router with nested routes
 * Simple bootstrap based styling
 
 Server side Restful api [hosted at http://thinkful-pb-1.getsandbox.com](http://thinkful-pb-1.getsandbox.com)
