@@ -1,4 +1,12 @@
-# Ng40demo
+# PB: demo app for angular 1.4 style;
+
+Implemented concepts:
+* Nested controllers and scopes
+* Single data access service
+* UI-router with nested routes
+* Simple bootstrap based styling
+
+Server side Restful api [hosted at http://thinkful-pb-1.getsandbox.com](http://thinkful-pb-1.getsandbox.com)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
