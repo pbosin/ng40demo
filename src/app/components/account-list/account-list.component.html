@@ -1,0 +1,18 @@
+<table>
+  <tr>
+    <th>Name</th>
+    <th><a class="btn btn-default btn-xs" (click)="addNew()">Add New Account</a></th>
+  </tr>
+  <tr *ngFor="let account of accounts">
+    <td>{{account.name}}</td>
+    <td>
+      <button class="btn btn-default btn-xs" (click)="edit(account)">
+        <span class="glyphicon glyphicon-pencil" title="Edit"></span>
+      </button>
+      <button class="btn btn-default btn-xs" (click)="deleteAccount(account)">
+        <span class="glyphicon glyphicon-trash" title="Remove"></span>
+      </button>
+      <button class="btn btn-default btn-xs" (click)="invoices(account)">View Invoices</button>
+    </td>
+  </tr>
+</table>
